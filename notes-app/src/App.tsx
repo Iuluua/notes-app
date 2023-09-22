@@ -1,6 +1,6 @@
 import './App.css';
 import { NotesApp } from './notesApp/NotesApp';
-import { ThemeProvider } from './themeContext/ThemeContext';
+import { ThemeProvider } from './components/themeContext/ThemeContext';
 
 function App() {
   return (

@@ -1,4 +1,4 @@
-import { useThemeClass } from "../hooks/useThemeClass";
+import { useThemeClass } from "../../hooks/useThemeClass";
 import "./SettingsButton.css";
 
 interface Props {

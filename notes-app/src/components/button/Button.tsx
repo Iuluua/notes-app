@@ -1,5 +1,5 @@
 import "./Button.css";
-import { useThemeClass } from "../hooks/useThemeClass";
+import { useThemeClass } from "../../hooks/useThemeClass";
 
 interface Props {
     content: string;

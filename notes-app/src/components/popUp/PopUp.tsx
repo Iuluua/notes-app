@@ -1,4 +1,4 @@
-import { useThemeClass } from "../hooks/useThemeClass";
+import { useThemeClass } from "../../hooks/useThemeClass";
 import "./PopUp.css"
 
 interface Props {

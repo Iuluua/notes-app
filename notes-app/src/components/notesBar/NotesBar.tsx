@@ -1,5 +1,5 @@
 import { Button } from "../button/Button";
-import { useThemeClass } from "../hooks/useThemeClass";
+import { useThemeClass } from "../../hooks/useThemeClass";
 import { NoteTag } from "../noteTag/NoteTag";
 import "./NotesBar.css";
 

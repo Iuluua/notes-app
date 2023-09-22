@@ -1,7 +1,7 @@
 import { useState } from "react";
-import "../notesDisplay/NotesDisplay.css";
-import { Button } from "../button/Button";
-import { useThemeClass } from "../hooks/useThemeClass";
+import "../notesDisplayPage/NotesDisplayPage.css";
+import { Button } from "../../components/button/Button";
+import { useThemeClass } from "../../hooks/useThemeClass";
 
 export interface NoteWithoutId {
     title: string;
@@ -12,7 +12,7 @@ interface Props {
     onClick: (note: NoteWithoutId) => void;
 }
 
-export const NewNote = ({ onClick }: Props) => {
+export const NewNotePage = ({ onClick }: Props) => {
     const [newNote, setNewNote] = useState({
         "title": "New Note",
         "description": "Write your note here"

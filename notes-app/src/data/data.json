@@ -1,0 +1,54 @@
+{
+  "notes": [
+    {
+      "id": 0,
+      "title": "Meeting Agenda",
+      "description": "Discuss project updates and upcoming deadlines with the team."
+    },
+    {
+      "id": 1,
+      "title": "Grocery List",
+      "description": "Buy milk, eggs, bread, and fresh vegetables from the store."
+    },
+    {
+      "id": 2,
+      "title": "Travel Plans",
+      "description": "Book flights and accommodations for the summer vacation in Europe."
+    },
+    {
+      "id": 3,
+      "title": "Programming Task",
+      "description": "Implement a user authentication system for the website."
+    },
+    {
+      "id": 4,
+      "title": "Fitness Goals",
+      "description": "Plan workout routines and set fitness goals for the month."
+    },
+    {
+      "id": 5,
+      "title": "Recipe Ideas",
+      "description": "Explore new recipes for a family dinner this weekend."
+    },
+    {
+      "id": 6,
+      "title": "Book Recommendations",
+      "description": "Ask friends for book recommendations to build a reading list."
+    },
+    {
+      "id": 7,
+      "title": "Project Timeline",
+      "description": "Create a timeline for the upcoming software development project."
+    },
+    {
+      "id": 8,
+      "title": "Travel Bucket List",
+      "description": "Compile a list of dream destinations for future vacations."
+    },
+    {
+      "id": 9,
+      "title": "Home Improvement",
+      "description": "Plan renovations for the living room and kitchen areas."
+    }
+  ]
+}

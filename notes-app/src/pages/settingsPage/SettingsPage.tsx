@@ -1,9 +1,9 @@
 import { useContext } from "react";
-import "./Settings.css";
-import { SetThemeContext, ThemeEnum } from "../themeContext/ThemeContext";
-import { useThemeClass } from "../hooks/useThemeClass";
+import "./SettingsPage.css";
+import { SetThemeContext, ThemeEnum } from "../../components/themeContext/ThemeContext";
+import { useThemeClass } from "../../hooks/useThemeClass";
 
-export const Settings = () => {
+export const SettingsPage = () => {
     const setTheme = useContext(SetThemeContext);
     const themeClass = useThemeClass("settings-title");
     const themeButtonClass = useThemeClass("theme-button");

@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { ThemeContext, ThemeEnum } from "../themeContext/ThemeContext";
+import { ThemeContext, ThemeEnum } from "../components/themeContext/ThemeContext";
 
 export const useThemeClass = (className: string) => {
     const theme = useContext(ThemeContext);

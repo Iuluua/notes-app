@@ -1,6 +1,6 @@
-import { Button } from "../button/Button";
-import { useThemeClass } from "../hooks/useThemeClass";
-import "./NotesDisplay.css"
+import { Button } from "../../components/button/Button";
+import { useThemeClass } from "../../hooks/useThemeClass";
+import "./NotesDisplayPage.css";
 
 interface Props {
     id: number;
@@ -11,7 +11,7 @@ interface Props {
     onDelete: (id: number) => void;
 }
 
-export const NotesDisplay = ({ id, title, description, onChangeTitle, onChangeDescription, onDelete }: Props) => {
+export const NotesDisplayPage = ({ id, title, description, onChangeTitle, onChangeDescription, onDelete }: Props) => {
     const themeClass = useThemeClass("note-input");
 
     return (
