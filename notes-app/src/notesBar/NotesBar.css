@@ -1,0 +1,38 @@
+.notes-bar {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    min-height: 100vh;
+    gap: 1rem;
+    width: 20%;
+}
+
+.pink-notes-bar {
+    background-color: rgb(248, 216, 221);
+    border-right: 2px solid rgb(240, 75, 103);
+}
+
+.purple-notes-bar {
+    background-color: rgb(249, 148, 249);
+    border-right: 2px solid rgb(105, 0, 105);
+}
+
+.blue-notes-bar {
+    background-color: rgb(154, 208, 255);
+    border-right: 2px solid blue;
+}
+
+.green-notes-bar {
+    background-color: rgb(162, 255, 162);
+    border-right: 2px solid rgb(53, 186, 53);
+}
+
+.orange-notes-bar {
+    background-color: rgb(255, 222, 160);
+    border-right: 2px solid rgb(253, 165, 0);
+}
+
+.yellow-notes-bar {
+    background-color: rgb(255, 255, 183);
+    border-right: 2px solid rgb(255, 255, 0);
+}

@@ -1,0 +1,79 @@
+.notes-display {
+    display: flex;
+    flex-direction: column;
+    padding: 4.5rem 3rem 3rem 2rem;
+    gap: 1rem;
+    width: 65%;
+}
+
+.notes-display .note-input {
+    padding: 1rem;
+    font-size: 24px;
+    border-radius: 10px;
+}
+
+.notes-display .note-input::selection {
+    color: white;
+}
+
+.notes-display .pink-note-input {
+    border: 2px solid rgb(240, 75, 103);
+    box-shadow: 3px 2px 10px rgb(210, 178, 183);
+}
+
+.notes-display .pink-note-input::selection {
+    background-color:rgb(240, 75, 103);
+}
+
+.notes-display .purple-note-input {
+    border: 2px solid rgb(105, 0, 105);
+    box-shadow: 3px 2px 10px rgb(210, 182, 210);
+}
+
+.notes-display .purple-note-input::selection {
+    background-color:rgb(105, 0, 105);
+}
+
+.notes-display .blue-note-input {
+    border: 2px solid blue;
+    box-shadow: 3px 2px 10px rgb(162, 191, 217);
+}
+
+.notes-display .blue-note-input::selection {
+    background-color:blue;
+}
+
+.notes-display .green-note-input {
+    border: 2px solid rgb(53, 186, 53);
+    box-shadow: 3px 2px 10px rgb(172, 219, 172);
+}
+
+.notes-display .green-note-input::selection {
+    background-color:rgb(53, 186, 53);
+}
+
+.notes-display .orange-note-input {
+    border: 2px solid rgb(253, 165, 0);
+    box-shadow: 3px 2px 10px rgb(224, 205, 168);
+}
+
+.notes-display .orange-note-input::selection {
+    background-color:rgb(253, 165, 0);
+}
+
+.notes-display .yellow-note-input {
+    border: 2px solid rgb(255, 255, 0);
+    box-shadow: 3px 2px 10px rgb(232, 232, 187);
+}
+
+.notes-display .yellow-note-input::selection {
+    background-color:rgb(255, 255, 0);
+}
+
+.notes-display .note-input:focus {
+    outline: none;
+}
+
+.notes-display button {
+    align-self: flex-end;
+}

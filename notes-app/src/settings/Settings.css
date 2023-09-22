@@ -1,0 +1,129 @@
+.settings-container {
+    width: 65%;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.settings-container .settings-title {
+    padding-bottom: 1rem;
+    margin-bottom: 3rem;
+}
+
+.settings-container .pink-settings-title {
+    border-bottom: 2px solid rgb(240, 75, 103);
+}
+
+.settings-container .purple-settings-title {
+    border-bottom: 2px solid rgb(105, 0, 105);
+}
+
+.settings-container .blue-settings-title {
+    border-bottom: 2px solid blue;
+}
+
+.settings-container .green-settings-title {
+    border-bottom: 2px solid rgb(53, 186, 53);
+}
+
+.settings-container .orange-settings-title {
+    border-bottom: 2px solid rgb(253, 165, 0);
+}
+
+.settings-container .yellow-settings-title {
+    border-bottom: 2px solid rgb(255, 255, 0);
+}
+
+.settings-container .theme-container {
+    display: flex;
+    gap: 1rem;
+}
+
+.settings-container .theme-container .theme-button {
+    padding: 1.3rem 2.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.settings-container .theme-container .pink-theme-button {
+    box-shadow: 3px 2px 10px rgb(210, 178, 183);
+}
+
+.settings-container .theme-container .purple-theme-button {
+    box-shadow: 3px 2px 10px rgb(210, 182, 210);
+}
+
+.settings-container .theme-container .blue-theme-button {
+    box-shadow: 3px 2px 10px rgb(162, 191, 217);
+}
+
+.settings-container .theme-container .green-theme-button {
+    box-shadow: 3px 2px 10px rgb(172, 219, 172);
+}
+
+.settings-container .theme-container .orange-theme-button {
+    box-shadow: 3px 2px 10px rgb(224, 205, 168);
+}
+
+.settings-container .theme-container .yellow-theme-button {
+    box-shadow: 3px 2px 10px rgb(232, 232, 187);
+}
+
+.settings-container .theme-container .theme-button:active {
+    outline: none;
+}
+
+.settings-container .theme-container .pink-theme {
+    background-color: pink;
+    border: 2px solid rgb(240, 75, 103);
+}
+
+.settings-container .theme-container .pink-theme:hover {
+    background-color: rgb(252, 135, 154);
+}
+
+.settings-container .theme-container .purple-theme {
+    background-color: rgb(204, 74, 204);
+    border: 2px solid rgb(105, 0, 105);
+}
+
+.settings-container .theme-container .purple-theme:hover {
+    background-color: rgb(170, 66, 170);
+}
+
+.settings-container .theme-container .blue-theme {
+    background-color: rgb(90, 178, 255);
+    border: 2px solid blue;
+}
+
+.settings-container .theme-container .blue-theme:hover {
+    background-color:rgb(92, 130, 255);
+}
+
+.settings-container .theme-container .green-theme {
+    background-color: rgb(123, 253, 123);
+    border: 2px solid rgb(53, 186, 53);
+}
+
+.settings-container .theme-container .green-theme:hover {
+    background-color: rgb(92, 243, 92);
+}
+
+.settings-container .theme-container .orange-theme {
+    background-color: rgb(255, 206, 114);
+    border: 2px solid rgb(253, 165, 0);
+}
+
+.settings-container .theme-container .orange-theme:hover {
+    background-color: rgb(255, 192, 75);
+}
+
+.settings-container .theme-container .yellow-theme {
+    background-color: rgb(252, 252, 169);
+    border: 2px solid rgb(255, 255, 0);
+}
+
+.settings-container .theme-container .yellow-theme:hover {
+    background-color: rgb(255, 255, 107);
+}
