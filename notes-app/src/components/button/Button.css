@@ -6,6 +6,10 @@
     cursor: pointer;
 }
 
+.button:active {
+    outline: none;
+}
+
 .pink-button {
     background-color: pink;
     border: 2px solid rgb(240, 75, 103);

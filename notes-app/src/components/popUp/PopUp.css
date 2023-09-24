@@ -1,4 +1,8 @@
 .pop-up {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
     padding: 3rem;
     background-color: pink;
     border: 2px solid rgb(240, 75, 103);
@@ -33,4 +37,85 @@
 .yellow-pop-up {
     background-color: rgb(252, 252, 169);
     border: 2px solid rgb(255, 255, 0);
+}
+
+.options-button-container {
+    display: flex;
+    gap: 1em;
+}
+
+.options-button-container .options-button {
+    width: 60px;
+    box-shadow: none;
+}
+
+.add-folder-container {
+    display: flex;
+    gap: 1em;
+}
+
+.add-folder-container .add-folder-input {
+    padding: 0.5rem;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.add-folder-container .add-folder-input:focus {
+    outline: none;
+}
+
+.add-folder-container .add-folder-input::selection {
+    color: white;
+}
+
+.add-folder-container .pink-add-folder-input {
+    border: 2px solid rgb(240, 75, 103);
+}
+
+.add-folder-container .pink-add-folder-input::selection {
+    background-color:rgb(240, 75, 103);
+}
+
+.add-folder-container .purple-add-folder-input {
+    border: 2px solid rgb(105, 0, 105);
+}
+
+.add-folder-container .purple-add-folder-input::selection {
+    background-color:rgb(105, 0, 105);
+}
+
+.add-folder-container .blue-add-folder-input {
+    border: 2px solid blue;
+}
+
+.add-folder-container .blue-add-folder-input::selection {
+    background-color:blue;
+}
+
+.add-folder-container .green-add-folder-input {
+    border: 2px solid rgb(53, 186, 53);
+}
+
+.add-folder-container .green-add-folder-input::selection {
+    background-color:rgb(53, 186, 53);
+}
+
+.add-folder-container .orange-add-folder-input {
+    border: 2px solid rgb(253, 165, 0);
+}
+
+.add-folder-container .orange-add-folder-input::selection {
+    background-color:rgb(253, 165, 0);
+}
+
+.add-folder-container .yellow-add-folder-input {
+    border: 2px solid rgb(255, 255, 0);
+}
+
+.add-folder-container .yellow-add-folder-input::selection {
+    background-color:rgb(255, 255, 0);
+}
+
+.add-folder-container .add-folder-button {
+    box-shadow: none;
 }

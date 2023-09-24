@@ -1,11 +1,10 @@
 .note-tag-container {
     display: flex;
     align-items: center;
-    padding: 1.2em;
+    padding: 1.2em 1.2em 1.2em 3.2em;
     border-radius: 5px;
     background-size: contain;
     background-repeat: no-repeat;
-    background-position-x: 95%;
     cursor: pointer;
 }
 
@@ -13,7 +12,7 @@
     border: 2px solid rgb(240, 75, 103);
     box-shadow: 3px 2px 10px rgb(210, 178, 183);
     background-color: pink;
-    background-image: url("../../assets/cursor/cursor-svgrepo-com-pink.svg");
+    background-image: url("../../assets/file/file-horizontal-svgrepo-com-pink.svg");
 }
 
 .pink-note-tag:hover {
@@ -24,7 +23,7 @@
     background-color: rgb(204, 74, 204);
     border: 2px solid rgb(105, 0, 105);
     box-shadow: 3px 2px 10px rgb(210, 182, 210);
-    background-image: url("../../assets/cursor/cursor-svgrepo-com-purple.svg");
+    background-image: url("../../assets/file/file-horizontal-svgrepo-com-purple.svg");
 }
 
 .purple-note-tag:hover {
@@ -35,7 +34,7 @@
     background-color: rgb(90, 178, 255);
     border: 2px solid blue;
     box-shadow: 3px 2px 10px rgb(162, 191, 217);
-    background-image: url("../../assets/cursor/cursor-svgrepo-com-blue.svg");
+    background-image: url("../../assets/file/file-horizontal-svgrepo-com-blue.svg");
 }
 
 .blue-note-tag:hover {
@@ -46,7 +45,7 @@
     background-color: rgb(123, 253, 123);
     border: 2px solid rgb(53, 186, 53);
     box-shadow: 3px 2px 10px rgb(172, 219, 172);
-    background-image: url("../../assets/cursor/cursor-svgrepo-com-green.svg");
+    background-image: url("../../assets/file/file-horizontal-svgrepo-com-green.svg");
 }
 
 .green-note-tag:hover {
@@ -57,7 +56,7 @@
     background-color: rgb(255, 206, 114);
     border: 2px solid rgb(253, 165, 0);
     box-shadow: 3px 2px 10px rgb(224, 205, 168);
-    background-image: url("../../assets/cursor/cursor-svgrepo-com-orange.svg");
+    background-image: url("../../assets/file/file-horizontal-svgrepo-com-orange.svg");
 }
 
 .orange-note-tag:hover {
@@ -68,9 +67,111 @@
     background-color: rgb(252, 252, 169);
     border: 2px solid rgb(255, 255, 0);
     box-shadow: 3px 2px 10px rgb(232, 232, 187);
-    background-image: url("../../assets/cursor/cursor-svgrepo-com-yellow.svg");
+    background-image: url("../../assets/file/file-horizontal-svgrepo-com-yellow.svg");
 }
 
 .yellow-note-tag:hover {
     background-color: rgb(255, 255, 107);
+}
+
+.folder {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+}
+
+.pink-folder {
+    background-image: url("../../assets/folder/folder-alt-svgrepo-com-pink.svg");
+}
+
+.pink-folder .new-folder-button {
+    background-image: url("../../assets/plus/plus-svgrepo-com-pink.svg");
+}
+
+.pink-folder .delete-folder-button {
+    background-image: url("../../assets/delete/delete-svgrepo-com-pink.svg");
+}
+
+.purple-folder {
+    background-image: url("../../assets/folder/folder-alt-svgrepo-com-purple.svg");
+}
+
+.purple-folder .new-folder-button {
+    background-image: url("../../assets/plus/plus-svgrepo-com-purple.svg");
+}
+
+.purple-folder .delete-folder-button {
+    background-image: url("../../assets/delete/delete-svgrepo-com-purple.svg");
+}
+
+.blue-folder {
+    background-image: url("../../assets/folder/folder-alt-svgrepo-com-blue.svg");
+}
+
+.blue-folder .new-folder-button {
+    background-image: url("../../assets/plus/plus-svgrepo-com-blue.svg");
+}
+
+.blue-folder .delete-folder-button {
+    background-image: url("../../assets/delete/delete-svgrepo-com-blue.svg");
+}
+
+.green-folder {
+    background-image: url("../../assets/folder/folder-alt-svgrepo-com-green.svg");
+}
+
+.green-folder .new-folder-button {
+    background-image: url("../../assets/plus/plus-svgrepo-com-green.svg");
+}
+
+.green-folder .delete-folder-button {
+    background-image: url("../../assets/delete/delete-svgrepo-com-green.svg");
+}
+
+.orange-folder {
+    background-image: url("../../assets/folder/folder-alt-svgrepo-com-orange.svg");
+}
+
+.orange-folder .new-folder-button {
+    background-image: url("../../assets/plus/plus-svgrepo-com-orange.svg");
+}
+
+.orange-folder .delete-folder-button {
+    background-image: url("../../assets/delete/delete-svgrepo-com-orange.svg");
+}
+
+.yellow-folder {
+    background-image: url("../../assets/folder/folder-alt-svgrepo-com-yellow.svg");
+}
+
+.yellow-folder .new-folder-button {
+    background-image: url("../../assets/plus/plus-svgrepo-com-yellow.svg");
+}
+
+.yellow-folder .delete-folder-button {
+    background-image: url("../../assets/delete/delete-svgrepo-com-yellow.svg");
+}
+
+.folder .note-tag-buttons-container {
+    display: flex;
+    gap: 0.4em;
+}
+
+.folder .note-tag-buttons-container .note-tag-button {
+    padding: 0;
+    height: 30px;
+    width: 30px;
+    border-radius: 8px;
+    box-shadow: none;
+}
+
+.folder .note-tag-buttons-container .new-folder-button, .delete-folder-button {
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.folder-element {
+    padding: 0.5em;
+    background-image: none;
 }

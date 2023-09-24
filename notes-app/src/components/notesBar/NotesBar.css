@@ -36,3 +36,12 @@
     background-color: rgb(255, 255, 183);
     border-right: 2px solid rgb(255, 255, 0);
 }
+
+.notes-bar .buttons-container {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.notes-bar .buttons-container button {
+    flex-grow: 1;
+}
